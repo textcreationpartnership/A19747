@@ -1,0 +1,760 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A protestation against popery by way of a confession of Christian religion collected for the benefit of private friends</title>
+            <author>I. D., fl. 1607.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1607</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 54 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A19747</idno>
+            <idno type="STC">STC 6172</idno>
+            <idno type="STC">ESTC S117486</idno>
+            <idno type="EEBO-CITATION">99852699</idno>
+            <idno type="PROQUEST">99852699</idno>
+            <idno type="VID">18036</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A19747)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 18036)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1233:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A protestation against popery by way of a confession of Christian religion collected for the benefit of private friends</title>
+                  <author>I. D., fl. 1607.</author>
+                  <author>Dunster, John, attributed name.</author>
+               </titleStmt>
+               <extent>[2], 38 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Joseph Barnes, printer to the Vniversitie,</publisher>
+                  <pubPlace>At Oxford :</pubPlace>
+                  <date>1607.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signed at end: I.D.; sometimes attributed to John Dunster.</note>
+                  <note>Some print show-through.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Controversial literature --  Early works to 1800.</term>
+               <term>Catholic Church --  Doctrines --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-05</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2009-05</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:18036:1"/>
+            <pb facs="tcp:18036:1" rendition="simple:additions"/>
+            <p>A PROTESTATION A<g ref="char:EOLhyphen"/>GAINST POPERY BY way of a Confeſsion of Chriſtian Religion collected for the benefit of private friends.</p>
+            <q>
+               <bibl>
+                  <hi>Apoc. cap. 18. ver. 2.</hi>
+               </bibl>
+               <p>Cecidit, Cecidit Babylon illa magna.</p>
+               <bibl>
+                  <hi>Senec. in Troas.</hi>
+               </bibl>
+               <l>—Haemanus Troiam erigent?</l>
+               <l>Nullas habet ſpes Troia, ſitales habet.</l>
+            </q>
+            <p>
+               <hi>AT OXFORD,</hi> Printed by Joſeph Barnes, Printer to the Vniverſitie. 1607.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:18036:2"/>
+            <pb n="1" facs="tcp:18036:2"/>
+            <head>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</head>
+            <p>
+               <seg rend="decorInit">I</seg> vnfainedlie beleeue that there is one immortall vn<g ref="char:EOLhyphen"/>compounded vnlimited <hi>Eſ<g ref="char:EOLhyphen"/>ſence</hi> which created this world &amp; furniſhed the ſhop thereof with wonderfull va<g ref="char:EOLhyphen"/>riety: who ſince doth guide and gouerne the ſame by a preſcribed and regular order, taking immediate notice not only of Angels offices and mens acti<g ref="char:EOLhyphen"/>ons, but of every yea the ſmalleſt and baſeſt thing in the world, not permitting any thinge to the luſt of fortune or command of deſtiny this ſuper<g ref="char:EOLhyphen"/>nall power J call God, and avow him to be the maintainer and rewarder of vertue, the revenger and iudg of wickednes, and J aſcribe vnto him heauen for his throne, and the ball of the earth for his footſtoole, and J ſubiect vnto his abſolute command all the powers of heauen and earth, &amp; render vnto him obedience praier and thankeſ<g ref="char:EOLhyphen"/>giuing for his tribute.</p>
+            <p>That there is ſuch a God J appeale vnto the co<g ref="char:cmbAbbrStroke">̄</g>ſcience of the moſt deſperate forlorne wretch in the world, tell me whoſoever thou be that haſt
+<pb n="2" facs="tcp:18036:3"/>
+thy conſcience moſt deaded &amp; ſeared with a hott iron, when thou committeſt a ſinne, and thinkeſt that thou haſt a vaile caſt before the eies of God, &amp; reſolueſt thus in thy hart, Who ſeeth me? J am compaſſed about with darknes, the walles couer me, whome need J to feare? the moſt high will not remember my ſinnes; yet tell me J ſay why is thy hart ſo diſquieted within thee? why is thy cou<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLunhyphen"/>tenance caſt downe for ſhame? why do thy knees ſmite togither and thy ioints ſhiuer for feare? Jf there be no power that doth knowe or ca<g ref="char:cmbAbbrStroke">̄</g> puniſh thy fault what need this anguiſh? But J wot well that theſe ſtiring motions within thee, are as ſo many ſummons to put thee in mind that there is a God in thy conſcience which ſeeth thy ſinne, &amp; wil arraigne thee for the ſame, and award conde<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>nation againſt thee, if thou prevent not his iudg<g ref="char:EOLhyphen"/>ment by repentance.</p>
+            <p>I beleeue this God is one as it is ſaid in <hi>Deute<g ref="char:EOLhyphen"/>ronomie, Audi Iſrael Deus tuus Deus vnus eſt:</hi> there is not for every kingdome a God, a God for <hi>Zidon,</hi> a God for <hi>Amon,</hi> a God for <hi>Moab,</hi> and a God for <hi>Ekron,</hi> but one alone God manageth the affaiers of the whole world, for if it be true in go<g ref="char:EOLhyphen"/>vernment of an earthly kingdome <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, much more in the being of a Deitie, for a
+<pb n="3" facs="tcp:18036:3"/>
+multitude of Gods would croſſe and incumber the deſignes one of another and none ſhould be omnipote<g ref="char:cmbAbbrStroke">̄</g>t, and ſo there ſhould be a tumultuous diſorder in the gouernment of the world, which Ovide pointeth out vnto vs ſaying,
+<q>Mulciber in Troiam, pro T'roiâ ſtabat Apollo.</q>
+               <hi>And</hi> Homer <hi>in the 21. of his Jliades,</hi>
+               <q>
+                  <l>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>,</l>
+                  <l>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</l>
+               </q>
+            </p>
+            <p>This God is ſimply one in nature &amp; eſſence, yet this one God doth ſubſiſt in three perſons, each of them ſeverally communicating in the whole of that one nature and eſſence: yet ſo as we cannot ſay that there are three Gods, but one God, for though the perſons be diſtinguiſhed in number, yet they be not devided in <hi>Eſſence:</hi> which is a miſ<g ref="char:EOLhyphen"/>tery to which mans vnderſtanding muſt vaile bonnet, ſeeing that it hath not pleaſed God who<g ref="char:EOLhyphen"/>lie to reveale it to the ſonnes of men, and that the Cherubins do couer their faces before it, as bee<g ref="char:EOLhyphen"/>ing not able to apprehend the perſit view therof. wherfore let vs ſay with holy Moſes, Hidde things belonge vnto thee ô lord, but revealed thinges vnto vs and our children; and let vs onlie learne as much of this vnitie &amp; Trinitie as it hath pleaſ<g ref="char:EOLhyphen"/>ed God to reveale vnto vs in his word, alwaies
+<pb n="4" facs="tcp:18036:4"/>
+remembring that ſaieing of <hi>Arnobius</hi>—
+<q>De Deo loqui etiam vera periculoſiſſimum eſt.</q>
+            </p>
+            <p>That there are three perſons in the Deitie the father, the ſonne, and the holy Ghoſt, as it may be proued by manie pregnant places of ſcripture, ſo it is evident fro<g ref="char:cmbAbbrStroke">̄</g> the baptiſme of Chriſt in <hi>Iordan,</hi> where the <hi>Sonne</hi> was baptiſed by Iohn, the holie Ghoſt deſcended in the viſible forme of a doue, the father gaue witnes from heauen that this was his welbeloued ſonne, etc. vpon which place S<hi rend="sup">t</hi>. Auguſtine giueth the note, <hi>Qui neſcis trinitate<g ref="char:cmbAbbrStroke">̄</g> ito ad Iordanem;</hi> And yet that there is likwiſe an vnitie of <hi>Eſſence</hi> of which without inequalitie the whole Trinitie doth participate may be proued by an vſuall forme of ſpeech in the Hebrew origi<g ref="char:EOLhyphen"/>nal, when ſpeaking of God a nowne of the plural number is ioined with a verb of the ſingular, as in the begining of <hi>Geneſis.</hi> 1.5. <hi>In principio crea<g ref="char:EOLhyphen"/>vit Elohim</hi> (1) <hi>Dij caelum et terram-Dij</hi> for the perſons in the plurall number &amp; <hi>creauit</hi> to note the vnity of the <hi>Eſſence</hi> in the ſingular number.</p>
+            <p>This Trinity of perſons thus conſpiring in the vnitie of <hi>Eſſence,</hi> is notwithſtanding diſtinguiſh<g ref="char:EOLhyphen"/>ed by attributes, and proprieties.</p>
+            <p>
+               <pb n="5" facs="tcp:18036:4"/>Theſe attributes or proprieties are twofold
+<list>
+                  <item>1 Incommunicable. and</item>
+                  <item>2 Communicable.</item>
+               </list>
+            </p>
+            <p>Incommuni<g ref="char:EOLunhyphen"/>cable propri<g ref="char:EOLunhyphen"/>eties are,
+<list>
+                  <item>1. Of the father, to be vnbegotten.</item>
+                  <item>2. Of the ſonne, to be begotten, the curious ſearch of whoſe ge<g ref="char:EOLhyphen"/>neration is ſealed vp with that ſaying of Gregory Nazianzene, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</item>
+                  <item>3. Of the holy Ghoſt to be pro<g ref="char:EOLhyphen"/>ceeding.</item>
+               </list>
+            </p>
+            <p>How the generation of the ſonne, and the pro<g ref="char:EOLhyphen"/>ceſſion of the holy ghoſt do differ J cannot tell, only J ſay with S<hi rend="sup">t</hi>. Auguſtine that they doe differ <hi>ſed ego diſtinguere neſcio, non valeo, non ſufficio.</hi>
+            </p>
+            <p>The co<g ref="char:cmbAbbrStroke">̄</g>municable proprieties are, ſimple, infi<g ref="char:EOLhyphen"/>nite, immutable, eternal, iuſt, merciful, only wiſe, omnipotent, of which the three perſons doe in<g ref="char:EOLhyphen"/>ſeparablie communicate.</p>
+            <p>Out of theſe proprieties doe iſſue <hi>Apoteleſ<g ref="char:EOLhyphen"/>mata</hi> and actions, in which the Trinitie doe like<g ref="char:EOLhyphen"/>wiſe ſeverally, yet inſeperablie communicate. Theſe outward actions of the Trinity doe belo<g ref="char:cmbAbbrStroke">̄</g>g
+<pb n="6" facs="tcp:18036:5"/>
+vnto one of theſe three heads.</p>
+            <p>viz
+<list>
+                  <item>1. Creation,</item>
+                  <item>2. Redemption.</item>
+                  <item>3. Sanctification.</item>
+               </list>
+            </p>
+            <p>Creation is
+<list>
+                  <item>1. Of the world in generall.</item>
+                  <item>2. Of man in ſpeciall.</item>
+               </list>
+            </p>
+            <p>God created the fabrick of the world of no<g ref="char:EOLhyphen"/>thing, beſtowing but ſix daies for the making and adorning of the ſame, &amp; euer ſince by his watch<g ref="char:EOLhyphen"/>ful eie of prouidence hath and doth carefully go<g ref="char:EOLhyphen"/>uerne the ſame. Which Plato could teach vs, who avoweth it to be one, and the ſelfe ſame ſu<g ref="char:EOLhyphen"/>preame powers office, to bee <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> We condemne therfore the blaſphemy of the Epicures, which make our God an idle and care<g ref="char:EOLhyphen"/>leſſe God, like vnto Baal in the book of Kings which was aſleep and muſt be awaked; as alſo the opinion of <hi>Auerroes</hi> (vpon how goodly pretence ſoever builded) who hemd the prouidence of god within the circle of the moone ſaying as it is in Iob, The clouds hide him that he ca<g ref="char:cmbAbbrStroke">̄</g>not ſee &amp; he walketh in the circle of heaue<g ref="char:cmbAbbrStroke">̄</g>, thinking it abſurd <hi>ad hoc deducere Dei maiestatem vt ſciat quot culi<g ref="char:EOLhyphen"/>ces
+<pb n="7" facs="tcp:18036:5"/>
+naſcuntur.</hi> for we concerning our God haue learned of a better maſter that although he hath his dwelling on high yet he abaſeth him<g ref="char:EOLhyphen"/>ſelfe to behold things in heauen and earth;<note place="margin">Alfon<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Rex <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>niae <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Si cre<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> affuiſſ<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> dum ordina<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> a De<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> gatus.</note> that he is a God not only of the mountaines, but of the vallies likwiſe, lending his prouidenc<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> to the examination of things of the leaſt conſequence as feeding of Rauens, lighting of ſparrowes vpo<g ref="char:cmbAbbrStroke">̄</g> the ground, clothing of lilies, and numbering of haires. A doctrine not fully beleeued of them, who, when they ſee the wicked to build heapes of ſinne as high as Bable, and yet to eſcape the ven<g ref="char:EOLhyphen"/>gance of God, when otherwiſe the godly are vn<g ref="char:EOLhyphen"/>der his rod and puniſhment, doe break out into blaſphemie, &amp; fome out openly, that which Davids foole did but ſay in his hart-<hi>No<g ref="char:cmbAbbrStroke">̄</g> eſt Deus</hi>-*Henc Cato would faine haue God to giue him a reaſon-why Caeſar overcame Pompey and Her<g ref="char:EOLhyphen"/>cules in the Poet complaines in the extremity of torment,<note place="margin">Morn<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> ver, R<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Chriſt</note> that he which had freed the world of robbers, and ſauage beaſts, and beene profitable to al men, had liued in miſerie, and ſhould die in ſhame: when on the contrarie, Euriſtheus a tira<g ref="char:cmbAbbrStroke">̄</g>t did liue in the ruffe of pride, and was liues-like, &amp; the rod of God was not vpon him. <hi>Et ſunt qui cre<g ref="char:EOLhyphen"/>dere poſſunt eſſe Deos?</hi> Nether did the minds of hea<g ref="char:EOLunhyphen"/>then me<g ref="char:cmbAbbrStroke">̄</g>
+               <pb n="8" facs="tcp:18036:6"/>
+only, but of Gods Saints alſo totter and reele in their iudgme<g ref="char:cmbAbbrStroke">̄</g>ts concerning prouidence-for there was a time when Eccleſiaſtes complained, Be<g ref="char:EOLhyphen"/>hold the teares of the oppreſſed and none com<g ref="char:EOLhyphen"/>forts them: &amp; likwiſe Habacuck, Thou art a God of pure eies and canſt not ſee evill, thou canſt not behold wickednes, wherfore doſt thou looke vp<g ref="char:EOLhyphen"/>on the tranſgreſſours, and houldeſt thy tongue, when the wicked devours the man that is more righteous then he? But to ſtop the mouths of he<g ref="char:EOLhyphen"/>athen men, and the better to ſettle the ſtrugling thoughts of all Chriſtians, J will ſay no more the<g ref="char:cmbAbbrStroke">̄</g> that which Eccleſiaſtes and Habacuck, vpon bet<g ref="char:EOLunhyphen"/>ter adviſe of gods alwaies righteous iudgme<g ref="char:cmbAbbrStroke">̄</g>ts, &amp; after the te<g ref="char:cmbAbbrStroke">̄</g>peſt of the thoughts was alaied haue avowed before me; to wit, that howſoever God doth ſeeme not to ſee or to winck at the wicked yet indeed if we ſuſpend our haſty iudgment a while and waite in patience till he hath whet his glittering ſword, and his hand ſhall take hold on iudgment, we ſhal finde that of Moſes to be true, That he rewardeth to their face them that hate him, to bring the<g ref="char:cmbAbbrStroke">̄</g> to diſtructio<g ref="char:cmbAbbrStroke">̄</g>, for ſo ſpeaketh Ec<g ref="char:EOLhyphen"/>cleſiaſtes. If in a countrie thou ſeeſt the oppreſſio<g ref="char:cmbAbbrStroke">̄</g> of the poore, and the defrauding of iudgment &amp; iuſtice, be not aſtonied at the matter for he that
+<pb n="9" facs="tcp:18036:6"/>
+is higher then the higheſt regardeth, and there be higher then they; and Habacuck likwiſe, ô Lord thou haſt ordained them for iudgment and ô god thou haſt eſtabliſhed them for correction, if not in this world, yet vndoubtedly in the world to come-for J remember that the Apoſtle giueth it for a note, that bccauſe the Theſſalonians were afflicted with perſequutions by wicked men,<note place="margin">2. Th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> that this was an argument, that there is a iudgment to come in which it ſhould go well with the<g ref="char:cmbAbbrStroke">̄</g> and as ill with their enemies.</p>
+            <p>This God having created al things in the ſtage of the world by a word only of his mouth, being come in the 6. day to create man, as being a work of more excellency, and therfore more difficulty, doth as it were call a councell, and adviſe with the other perſons of the Trinity, <hi>Venite faciamus ho<g ref="char:EOLhyphen"/>minem,</hi> nor ſimply ſo, but a more excellent crea<g ref="char:EOLhyphen"/>ture then the reſt, <hi>In ſimilitudinem noſtram,</hi> nor only let vs make man, but let vs inveſt him with liberties and priviledges aboue other creatures, and make him a None-ſuch in the worlde, to rule over fiſhes of the ſea, birds of the aire, and beaſtes that walke vpon the plane of the earth.</p>
+            <p>So then man was created of the duſt of the earth, and God breathed into him the ſoule of life,
+<pb n="10" facs="tcp:18036:7"/>
+and had infuſde fro<g ref="char:cmbAbbrStroke">̄</g> aboue ſuch ſupernatural gra<g ref="char:EOLhyphen"/>ces, that he was indeed the mirror of Gods crea<g ref="char:EOLhyphen"/>tures, &amp; minio<g ref="char:cmbAbbrStroke">̄</g> of the world, like vnto God, vpon whom the alone God had conferred in abundant meaſure all his ſpeciall ornaments; for he had no darknes in his vnderſtanding, nor perverſnes in his wil, nor Rebellion in his affections, no ſicknes nor craſines in his whole body, nor never ſhoulde haue had, if never miſpending this rich dowrie of God, hee did never run bankerupt beyonde the bounds of Gods commandements. But this man thus highly exalted in the loue of God Peacock-like taking a view of his owne glory, diſcontinued his wonted obedience to his Soveraigne, nor on<g ref="char:EOLhyphen"/>ly ſo, but having all that he could aſke or thought he ſhould receiue from God,<note place="margin">ſicut</note> betooke himſelfe to the Divel to ſerue him vpo<g ref="char:cmbAbbrStroke">̄</g> * credit only of better pay, thinking by violence to breake into heaven, and to exalt his throne by the throne of the al<g ref="char:EOLhyphen"/>mightie.</p>
+            <p>But fooliſh man by this his Apoſtaſie and wil<g ref="char:EOLhyphen"/>full diſobedience forfeited his former more bleſ<g ref="char:EOLhyphen"/>ſed eſtate, and was ſtript of his Maſters livery, and all his excellent graces, diſpoſſeſſed of Paradice and ſent vnto the Divel to pay him his wages for his former ſervice, and al his poſterity by the guilt
+<pb n="11" facs="tcp:18036:7"/>
+of his tranſgreſſion haue their nature defiled, and are abandoned of God, and entitled to the Divel for his children and of-ſpring, <hi>a wicked ſeed, wit<g ref="char:EOLhyphen"/>ches children, and ſonnes of Beliall.</hi> And now ô yee ſonnes of men, ſaith God by his Prophet Micheas <hi>Remember what Balak king of Moab had deviſed, and what Balam</hi> the ſonne <hi>of Beor anſwered him, that you may know the righteouſnes of the Lord,</hi> for ſo I hope I may apply this propheſie. O yee ſons of men now at this time, during our bondage vn<g ref="char:EOLhyphen"/>der the divel, remember what the Prince of dark<g ref="char:EOLhyphen"/>nes had deviſed againſt vs, and how Ieſus Chriſt the ſonne of the living God, hath anſwered him, and ſtopt his mouth with a voice of blood, &amp; nai<g ref="char:EOLhyphen"/>led his accuſation to a Croſſe, that yee may know the righteouſnes, nor that only, but the excee<g ref="char:EOLhyphen"/>ding loue &amp; rich mercy of the Lord to mankinde: for there being no way to free vs out of the pow<g ref="char:EOLhyphen"/>er of the Devil, but by ſatiſfying the iuſtice of God for the former tranſgreſſion, God the Father in the fulneſſe of time ſent his beloved ſonne made of a woman and clothed in our fleſh, by the ſhed<g ref="char:EOLhyphen"/>ding of his precious bloud to redeeme out of the power of the Devil al thoſe, that by faith applie the merite of his paſſion vnto themſelues, and do afterwarde ſhew their thankfulnes vnto God for
+<pb n="12" facs="tcp:18036:8"/>
+ſo great Redemption: having alwaies in their mindes thoſe words of the Lord which hee ſpake by his Prophet J ſay, <hi>Remember theſe things ô Ia<g ref="char:EOLhyphen"/>cob and Iſraell, for thou art my ſervant, I haue for<g ref="char:EOLhyphen"/>med thee thou art my ſervant ô Iſraell forget mee not, I haue put away thy tranſgreſsions like a cloud, and thy ſinnes as a miſt, turne vnto me for I haue redeemed thee. Reioice yee heavens for the Lorde hath done it, ſhowt ye lower parts of the earth, burſt forth into praiſes ô ye mountaines, ô forreſt and e<g ref="char:EOLhyphen"/>very tree therin, for the Lord hath redeemed Iacob and will be glorified in Iſraell.</hi>
+            </p>
+            <p>I beleiue that God, J doe not ſay approued, or ſuggeſted, or furthered, but permitted and di<g ref="char:EOLhyphen"/>rected and J may truly ſay, willed and ordeined the fall of Adam, that therby he might take occa<g ref="char:EOLhyphen"/>ſion to manifeſt his glory, &amp; that in two reſpects.</p>
+            <p n="1">1 In erecting a conſiſtorie and tribunall for his iuſtice.</p>
+            <p n="2">2 Jn expoſing to the view of all men the inex<g ref="char:EOLhyphen"/>hauſtible treaſure of his rich mercy, or that J may ſpeake in the words of a prophet <hi>In opening of a fountaine of mercy to the houſe of Dauid and to the Inhabitants of Ieruſalem,</hi> and to all the Iſrael of god, <hi>for ſinne, and for vncleannes.</hi>
+            </p>
+            <p>Concerning the firſt, J confeſſe that there can
+<pb n="13" facs="tcp:18036:8"/>
+no other reaſo<g ref="char:cmbAbbrStroke">̄</g> be aſſigned of the reiection of the wicked, but that of Chriſt in the Goſpell, <hi>Etiam pater quia ſic placuit tibi:</hi> or to ſpeak to the capa<g ref="char:EOLhyphen"/>city of the ignora<g ref="char:cmbAbbrStroke">̄</g>t, but the alone abſolute wil of God ordeining, and as J may ſo ſpeak, adiudging to diſtruction the wicked before they were preſe<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ted vpon the ſtage of the world, or had done ei<g ref="char:EOLhyphen"/>ther good or evill. For hath the potter power of a lump of clay, to make a veſſel to diſhonour, and ſhall not the almighty Iehouah by his vnlimited &amp; tranſcendent power, ordeine veſſells of wrath for the euill day and for deſtruction? Seing he is the lord in the parable of Matthew who ſaid <hi>An<g ref="char:EOLunhyphen"/>no<g ref="char:cmbAbbrStroke">̄</g> licet mihi quod volo facere in meis?</hi> yet againe J confeſſe that God condemneth not into hell any man, but for ſinnes and treſpaces, for I hold this to be a true poſition in diuinity, that ſinne is not the cauſe of reiection; yet may be, and indeed is the meritorious and impulſiue cauſe of dam<g ref="char:EOLhyphen"/>nation; wherefore whoſoever thou art that ſet<g ref="char:EOLhyphen"/>teſt thy face againſt heaue<g ref="char:cmbAbbrStroke">̄</g>, &amp; openeſt thy mouth in blaſphemies againſt God, lay thy hand vpon thy mouth, and look back vnto the fall of Adam, and conſider what thou broughteſt with thee fro<g ref="char:cmbAbbrStroke">̄</g> thy natiuitie, and from thy fathers houſe. Doe not cenſure God in thy blaſphemous thoughts,
+<pb n="14" facs="tcp:18036:9"/>
+as if vpon luſt only and not of deſerued iuſtice he did award ſentence of condemnatio<g ref="char:cmbAbbrStroke">̄</g> againſt thee: and J could alſo wiſh that many men would be more ſparing to ſcann this doctrine, &amp; choſe ra<g ref="char:EOLhyphen"/>ther to admire and magnifie then ſtrictly to exa<g ref="char:EOLhyphen"/>mine by the Canon of our reaſon, the ſecret and hidde<g ref="char:cmbAbbrStroke">̄</g> will of God; ſaying with S<hi rend="sup">t</hi>. Paul, ô the deepnes both of the wiſdome and knowledg of God, how vnſearchable are his iudgments, and his waies paſt finding out. And with S<hi rend="sup">t</hi>. Auguſ<g ref="char:EOLhyphen"/>tine, <hi>Diſputare vis mecum mirare mecum et exclae<g ref="char:EOLhyphen"/>ma, ô altitudo! Ambo conſentiamus in pauore, ne in errore pereamus.</hi>
+            </p>
+            <p>Concerning the ſecond I beleue, that all men being infected from Adams ſinne (not only with imputatiue guilt, as Pighius would haue it, but by naturall corruption alſo as S. Paule avouch<g ref="char:EOLhyphen"/>eth) haue iuſt cauſe inhering and reſiding in them at their birth, for which they ſhould be reiected of God, and left weltering in their filthy blood to the contempt of their perſon, yea to be ſent into hell to haue their originall impietie expiated with brimſtone: but that God for the glorie and riches of his mercy being loath to wreak his fury in the generall perdition of all mankind, not of <hi>foreſeene either woorkes or faith,</hi> but of his good
+<pb n="15" facs="tcp:18036:9"/>
+               <hi>pleaſure and only meere mercy</hi> hath called ſome out of the curſed eſtate of al mankind, on whom to beſtow fauout, and the kingdome of his loue, ordaineing them in his ſecret c<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>unſell to be <hi>Citi<g ref="char:EOLhyphen"/>zens with the Angels of the heauenly Ieruſalem, and heires of heauen, &amp; coheires with Chriſt,</hi> And doth call them at due time, <hi>ſome at the third how<g ref="char:EOLhyphen"/>er, and ſome at the eleventh,</hi> if not outwardly all by his word, yet inwardly all by the hidden ver<g ref="char:EOLhyphen"/>tue and efficatious power of his holy ſpirit, out of the power of darcknes to be of the <hi>houſhold of God</hi> and in the boſome of the Church, there to be conſecrated by <hi>Baptiſme,</hi> nouriſhed at the <hi>Lords table,</hi> inſtructed by the <hi>word,</hi> gouerned by <hi>his ſpi<g ref="char:EOLhyphen"/>rit,</hi> and euen then he beſtoweth vpon them <hi>his Beloued,</hi> &amp; with him <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> he giueth re<g ref="char:EOLhyphen"/>miſſion <hi>both of ſinnes and puniſhment,</hi> and all the benefits and meritts not of his paſſion only but of his incarnation alſo: and hath giuen vs <hi>the hand of faith,</hi> to reach and apply them vnto our ſelues, yea to owne, and poſſeſſe them as truly as if ours not by imputation onlie, but originally &amp; by inhaeſion; ſo that before God all the company of the faithfull are accounted as onlie <hi>one Nume<g ref="char:EOLhyphen"/>ricall body with Chriſt,</hi> for the ſpirit of God by his ſanctifying power by little and little doth worke
+<pb facs="tcp:18036:10" rendition="simple:additions"/>
+away the <hi>old man of our corruption,</hi> and doth put on vs a <hi>new creature</hi> making vs reallie partakers of the ſubſtaunce of the fleſh yea of the whole perſon of Chriſt, and his proper ornaments and graces, as righteouſnes and ſanctification. The which great bleſſing of our every way vndeſeru<g ref="char:EOLhyphen"/>ed redemption, when I ſeriouſly revolue with my ſelfe, I cannot but break forth into praiſe, in the words of <hi>Zachary, Bleſſed be the Lord God of Iſra<g ref="char:EOLhyphen"/>el becauſe he hath viſited and redeemed his people etc.</hi> and vſe thoſe words of admiration otherwiſe applied I confeſſe in the book of <hi>Numbers; Ac<g ref="char:EOLhyphen"/>cording vnto this time, it ſhall be ſaid of Iacob and Iſrael what hath God wrought?</hi>
+            </p>
+            <p>Man hauing receiued theſe rich fauours of God in his creation and redemption, hath no<g ref="char:EOLhyphen"/>thing charged vpon him for his tribute, but only to ſhew <hi>a good faithfulnes to adorne his chriſtian profeſſion,</hi> and to be carefull to ſhew forth good workes. Wherfore I confeſſe vnto the glorie of God that every one of Gods children, which hath his ſinnes waſhed away in the bloud of the Lamb, hath it not left vnto him as <hi>Arbitary,</hi> but hath a neceſſitie laid vpo<g ref="char:cmbAbbrStroke">̄</g> him to doe good works, and that in theſe reſpects following.</p>
+            <p n="1">1. In reſpect of God, it being his will and com<g ref="char:EOLhyphen"/>mandement
+<pb n="17" facs="tcp:18036:10"/>
+that they ſhould be done, by ſuch our obedience to teſtifie our thanckfulnes for his great mercies of Creation and Redemption.</p>
+            <p n="2">2 In reſpect of our ſelues, that we by theſe fruits of Sanctification may be led backward to a cer<g ref="char:EOLhyphen"/>tainty of our Iuſtification &amp; effectual Vocation &amp; Electio<g ref="char:cmbAbbrStroke">̄</g>, &amp; ſo finding our names written in the book of life, may be perſwaded <hi>Certitudine fidei, cui no<g ref="char:cmbAbbrStroke">̄</g> poteſt ſubeſſe falſu<g ref="char:cmbAbbrStroke">̄</g>,</hi> of our future glorificatio<g ref="char:cmbAbbrStroke">̄</g>
+            </p>
+            <p n="3">3. In reſpect of others. 1. <hi>Ne quis de nobis con<g ref="char:EOLhyphen"/>queri poſſit Philip.</hi> ca<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 2</p>
+            <p n="2">2. <hi>That other men ſeeing our good workes may be allured to glorifie our father</hi> which is in <hi>heauen,</hi> &amp; to ſaie as the Gentiles to the Iewes in the pro<g ref="char:EOLhyphen"/>pheſie of <hi>Zachary, Ambulabimus vobiſcum, for we haue hard that God is with you.</hi> This truth bee<g ref="char:EOLhyphen"/>ing alwaies reſolued on, that our beſt workes are not perfit in their owne eſteeme and valeue, if examined according to the preciſe rule of the decalogue <hi>(lex ſpiritualis eſt, ego autem homo car<g ref="char:EOLhyphen"/>nalis)</hi> and in the diſtrict iudgment of God, and therfore away with meritt, and let vs ſay with S<hi rend="sup">t</hi>. Auguſtine <hi>Vae laudabili etiam vitae hominum, ſire motâ miſericordiâ diſcutias eam Domine,</hi> and aſ<g ref="char:EOLhyphen"/>ſuredlie every one of vs may confeſſe with <hi>An<g ref="char:EOLhyphen"/>ſelmus Terret me vita mea, na<g ref="char:cmbAbbrStroke">̄</g> diligenter diſcuſ<g ref="char:EOLhyphen"/>ſa
+<pb n="18" facs="tcp:18036:11" rendition="simple:additions"/>
+apparet mihi aut peccatum, aut ſterilitas, tota vita mea,</hi>
+            </p>
+            <p>God maketh his will knowne two manner of waies. 1. By his workes <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of which I haue ſpoken in the creation.</p>
+            <p n="2">2. In his word.</p>
+            <p>Of the word of God.</p>
+            <p>Not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the ſubſtantiall word of God, of whom before.</p>
+            <p>But <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> &amp; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the enunci<g ref="char:EOLhyphen"/>atiue and created word of god, called ſomtimes ſimpy the ſcriptures, ſomtimes with an Empha<g ref="char:EOLhyphen"/>ſis, the <hi>holy</hi> (Rom. 12.) and <hi>ſacred</hi> (2. Tim. 3. ch.) ſcriptures.</p>
+            <p>That they are
+<list>
+                  <item>1. The word of God,</item>
+                  <item>2. Sufficient to ſaluation.</item>
+                  <item>3. Plaine and therfore to be tranſlated.</item>
+                  <item>4. By whom they are to haue their ſence.</item>
+               </list>
+            </p>
+            <p>I acknowledg all theſe books which make vp the body of holy writt which we call the <hi>holy ſcri<g ref="char:EOLhyphen"/>ptures,</hi> to be inſpired by the holie Ghoſt, and to be vndoubtedly the true word of God, of which I am perſwaded not ſo much by the <hi>iudgment of
+<pb n="19" facs="tcp:18036:11"/>
+the Church,</hi> as for theſe reaſons following.</p>
+            <p n="1">1. From the Maieſtie of God, ſpeaking in the ſcriptures, for in them nothing is ſet downe in ſo eaſie and ſimple forme of words, but I doe per<g ref="char:EOLhyphen"/>ceaue characters engrauen by the finger of God <hi>et genium humano maiorem.</hi>
+            </p>
+            <p n="2">2. From the efficacie of the ſcripture, for me thinkes, while I read, my hart doth burne within me, as the harts of the 2 diſciples that went with Chriſt to <hi>Emaus:</hi> ſo that J confeſſe with the Pro<g ref="char:EOLhyphen"/>phet. <hi>Surely as the raigne co<g ref="char:cmbAbbrStroke">̄</g>meth downe, and the ſnow from heauen, and returneth not thither a<g ref="char:EOLhyphen"/>gaine, but watereth the earth and cauſeth it to bring forth and bud: ſo is my word that goeth out of my mouth, it ſhall not returne vnto me void, but it ſhall accompliſh that I will, and proſper in the thing whereto I ſent it.</hi> This I confeſſe againſt all thoſe <hi>Vatican Rabſakes,</hi> who hauing adamant harts, the which the ſpirit of the Lord cannot pierce, doe impeach the power of this word: <hi>Ho<g ref="char:EOLhyphen"/>ſius</hi> that doth call it, or approues it to be called, <hi>e<g ref="char:EOLhyphen"/>genum quoddam elementum, Stephen Pal<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>tus, rem inanimatam, Melchior Canus, mortuum iudicem,</hi> &amp; <hi>Eckius</hi> more blaſphemouſly <hi>atramentariam ſcripturam</hi> and I condemne <hi>Angelus Politianus,</hi> as blaſphemous, that preferred <hi>Pindarus his Odes</hi>
+               <pb n="20" facs="tcp:18036:12"/>before the <hi>Pſalmes of Dauid Quid palea ad triti<g ref="char:EOLhyphen"/>cum? Nonne verbum meum eſt inſtar ignis (dicit Iehouah) tanquam malleus conterens petram?</hi>
+            </p>
+            <p n="3">3 Fro<g ref="char:cmbAbbrStroke">̄</g> the event of propheſies, every one com<g ref="char:EOLhyphen"/>pleat in his proper time, although foretolde long before, to wit, The people of <hi>Iſraels</hi> bondage in <hi>Aegypt,</hi> and delivery from thence. The kingdome to continue in the line of <hi>Iudah,</hi> vntil Chriſt came in the fleſh. The propheſie of <hi>Ioſias,</hi> given by name three hundred years before his cradle. The captivity into <hi>Babylon,</hi> &amp; freedome by <hi>Cyrus.</hi> The time, place, and manner of Chriſts birth, The re<g ref="char:EOLhyphen"/>iection of the Jews, &amp; calling of the Gentiles. So that God might wel proclaime of himſelfe, as it is in <hi>Iſay. I am God &amp; there is none other, &amp; there is nothing like me, which declare the laſt things from the beginning, &amp; from of old the things. &amp;c.</hi> ſay<g ref="char:EOLhyphen"/>ing, <hi>my councell ſhall ſtand, and I will doe, what ſoe<g ref="char:EOLhyphen"/>ver I will,</hi> eve<g ref="char:cmbAbbrStroke">̄</g> ſo, good Lord, thy word, is the <hi>word of Truth,</hi> yea as one of thy Apoſtles hath it more Emphatically, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: it is truth it ſelfe, and one iod therof ſhall not fall vnto the ground vnfulfilled, for though the <hi>Scheme of the world were a way,</hi> and <hi>the Prophets doe not liue for euer,</hi> yet thou ó lord with thy Angels wilt come to performe their propheſies in their moments.</p>
+            <p n="4">
+               <pb n="21" facs="tcp:18036:12"/>4 And eſpecially from the teſtimony of the ſpi<g ref="char:EOLunhyphen"/>rit of God, which perſuadeth vnto our ſoules and conſciences, the vndoubted truth of that word, which ſome doe contemne and deride as <hi>fool<g ref="char:EOLhyphen"/>liſhneſſe;</hi> and hence I iudge it to be, that <hi>martyrs</hi> being reſolued by the powerfull perſwaſion of this ſpirit, of the truth hereof doe boldly offer to ſeale the ſame with their blood proteſting that nothing ſhall remoue them from profeſſion of this truth * <hi>non minae, non blandi menta, non vita, non mors, non palatium, non ſatellites,</hi>
+               <note place="margin">vin</note> 
+               <hi>non impera<g ref="char:EOLhyphen"/>tor, non imperium, non homines non daemones.</hi>
+            </p>
+            <p n="2">2 I beleue that almighty god hath made knowne vnto vs in his written word ſo much of his will as is ſufficient for the inſtruction of the faithfull, without the patching too of <hi>Traditions;</hi> So that I account that <hi>Canon</hi> of the <hi>Councel of Trent</hi> to be blaſphemous, by which it is prouided, that <hi>Tradi<g ref="char:EOLhyphen"/>tions</hi> are to be receiued <hi>paripietatis affectu,</hi> with the written word of God, and concerning <hi>Tradi<g ref="char:EOLhyphen"/>tions,</hi> J am wont to ſay with S<hi rend="sup">t</hi>. <hi>Ambroſe, Quod non legi vſurpare non debeo.</hi> That which J finde not in the ſcripture ether expreſſed, or deducable by eaſy conſequence I ought not to vſe, and a<g ref="char:EOLhyphen"/>gaine, <hi>Caeli myſterium me doceat Deus, qui me con<g ref="char:EOLhyphen"/>didit, non homo, qui ſe ipſum ignorauit,</hi> and with <hi>O<g ref="char:EOLhyphen"/>rigene.
+<pb n="22" facs="tcp:18036:13"/>
+Non ſum aliorum ſermonu<g ref="char:cmbAbbrStroke">̄</g> diſcipulus niſi caeleſtum.</hi>
+            </p>
+            <p n="3">3 This ſcripture ſo ſufficient, I acknowledge to be eaſy, and <hi>facile,</hi> fitted to the capacitie of the ſimpleſt, whoſe vnderſtanding God hath not ſhut vp in that iudgment, <hi>vobis non datum eſt noſſe misteria regni:</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. 12.</note> ſo that the weaklin in faith thence may draw <hi>milke</hi> for his weake ſtomack, and the more able Chriſtian, may haue <hi>ſtronger meat</hi> to better his groath in the <hi>myſtery of faith:</hi> wherfore J could wiſh that the ſcriptures were permitted to every nation,<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ee ſay of <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>o<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e as <hi>S.</hi> 
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>m of <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ehem un<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> 
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>teris a <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ſituam alielu<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>cantas <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ans <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> pſal<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> a vo<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>curua <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>aens <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> falce <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>n ali<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Daui <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>n can<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>it inep</note> and language vnder heauen, in their owne familiar tongue that ſo euery ma<g ref="char:cmbAbbrStroke">̄</g> may haue and read them to his comfort: for why ſhould I not wiſh that the ſpirit of God did not only reſt vpon <hi>Moſes, and the ſeauenty ancient men</hi> in the book of <hi>Numbers,</hi> but that <hi>Eldaed and Medaed,</hi> yea <hi>and all the Lords people were prophets, and that the Lord would put his ſpirit vpon them.</hi>
+            </p>
+            <p>But ſince <hi>Scripturae non ſunt in legendo, ſed in intelligendo, as S<hi rend="sup">t</hi>. Hilary</hi> well obſerueth and ſee<g ref="char:EOLhyphen"/>ing in them ſomthings are ſo difficult, as that we may truely ſaie with the <hi>Eunuch to Philip, Quomo<g ref="char:EOLhyphen"/>do poſſum intelligere, ſi non aliquis viam praemon<g ref="char:EOLhyphen"/>stret mihi?</hi> J would haue you for the ſence of ſcripture not to adviſe <hi>with humane reaſo<g ref="char:cmbAbbrStroke">̄</g>,</hi> which
+<pb n="23" facs="tcp:18036:13"/>
+is blind in matters of piety nor 2 <hi>with any Swen<g ref="char:EOLhyphen"/>feldian Enthuſiaſt</hi> that vaunts of immediate re<g ref="char:EOLhyphen"/>uelations from the ſpirit of God: for a lying ſpirit may ſpeak in the mouths of ſuch Prophets.<note place="margin">In all <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <hi>270</hi> B<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> and of out of <hi>187</hi> a<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> make this r<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Olaus<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>nus wa<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>tled <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> of vpſ<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Go thi<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Rob. V<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>tius Arm<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> of Ar<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Irelan<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> whence neuer <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>ed pen<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> commo<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. Duo ip<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> depreh<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> in adu<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> &amp; occij<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> whit<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> Nor 3 with the <hi>Pope,</hi> that <hi>Tarpeian</hi> oracle, for J find not warranted by ſcripture any infallibility in his iudgme<g ref="char:cmbAbbrStroke">̄</g>t, ſeeing he may erre. Nor 4 <hi>with Cou<g ref="char:cmbAbbrStroke">̄</g>cels</hi> for they cannot be called ſo often as the Church may want deciſion for ſence 2 they are often times an aſſembly of malignant perſons againſt the Godly as the councell at <hi>Carmell</hi> againſt <hi>Elias,</hi> and at <hi>Gilead</hi> againſt <hi>Micheas,</hi> &amp; at <hi>Trent</hi> againſt the Proteſtants howſoever Campian be Hyperbolicall in its Commendation, <hi>Bone Deus quae Gentium varietas, qui delectus epiſcoporum totius orbis, qui Regum et Rerum pub: ſplendor, quae medulla Theologorum, quae ſanctitas quae lachry mae, quae teiunia, qui flores Accademici, quae linguae, quanta ſubtilitas, quantus labor, quam infinitae lec<g ref="char:EOLhyphen"/>tio, quantae virtutum, et ſtudiorum divitiae Augu<g ref="char:EOLhyphen"/>ſtum illud ſacrarium impleuerunt?</hi> Nor 5 <hi>with fa<g ref="char:EOLhyphen"/>thers,</hi> for they are men, and may, and doe erre, &amp; againe they abrogate this authoritie from them<g ref="char:EOLhyphen"/>ſelues,<note place="margin">Quos non ſy<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> flores ſ<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>tius v<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> nomina Humf<g ref="char:punc">▪</g>
+               </note> for ſo S. <hi>Auguſtine Talis ego ſum in ſcrip<g ref="char:EOLhyphen"/>tis aliorum quales ego eſse volo intellectores meorum</hi> and how did S. <hi>Augustine</hi> read other fathers wri<g ref="char:EOLhyphen"/>tings
+<pb n="24" facs="tcp:18036:14"/>
+he will tell you himſelfe <hi>Cypriani literas non vt Canonicas habeo, ſed conſidero ex Canonicis. But with any Child of God,</hi> I ſay <hi>with any child of God,</hi> who hath the <hi>gift of interpreting,</hi> who<g ref="char:cmbAbbrStroke">̄</g> J would haue not vpon any <hi>Praetorian</hi> authority to com<g ref="char:EOLhyphen"/>mand men to beleue whatſoeuer he liſt, as they in the Poet, <hi>Quod volumus ſanctum eſt:</hi> but to proue his ſence of ſcripture by ſcripture and to follow theſe 6 rules following.</p>
+            <list>
+               <item>1 To be acquainted with the wordes &amp; Phra<g ref="char:EOLhyphen"/>ſes of Scripture.</item>
+               <item>2 To humble himſelfe in praier vnto Almigh<g ref="char:EOLhyphen"/>ty God: vpon this hope.
+<q>Qui dedit, vt quaeras addet vt invenias:</q>
+               </item>
+               <item>3 To marke antecedents and conſequences.</item>
+               <item>4 To obſerue heedfully the occaſio<g ref="char:cmbAbbrStroke">̄</g> of the text the maine ſcope, and circumſtances thereof.</item>
+               <item>5 To parallelle like places.</item>
+               <item>6 To haue alwaies before his eies, for his <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the <hi>meaſure of faith</hi> in the Articles of the Creede.</item>
+            </list>
+            <p>Of the Church
+<list>
+                  <item>1 The authority thereof.</item>
+                  <item>2 The matter.</item>
+                  <item>3 The forme.</item>
+                  <item>4 The affections.</item>
+                  <item>5 The head.</item>
+                  <item>6 The Notes.</item>
+               </list>
+            </p>
+            <p n="1">
+               <pb n="25" facs="tcp:18036:14"/>1 I confeſſe that by <hi>this immortall ſeede of the word,</hi> God hath begotten him a Church. So that the Scripture is the mother of the Church, and the Church the daughter of the Scripture: how prepoſterous then, I will not ſay, blaſphemous, is the iudgme<g ref="char:cmbAbbrStroke">̄</g>t of the Church of <hi>Rome,</hi> who ſet <hi>Ha<g ref="char:EOLhyphen"/>gar</hi> aboue <hi>Sara,</hi> and the daughters foote in the necke of the mother, &amp; ſubject the oracles of God to the cenſure of men, avowing the authoritie of the Scriptures to be ſuch, and ſuch only as the Church doth afford it, yea more blaſphemouſlie that the Scripture without the cenſure and ap<g ref="char:EOLhyphen"/>probation of the Church is in it ſelfe no more, &amp; no more to be eſteemed then <hi>Aeſops fables:</hi> know yee not ye <hi>Vatican Rabſakes,</hi> that blaſphemers, &amp; al lyers ſhal haue their part in the lake which bur<g ref="char:EOLhyphen"/>neth with fire &amp; brimſtone? Yea they debaſe the authority of the Scripture ſo farre belowe the Church, as, that they ſay expreſly—<hi>non omnem</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>eſſe peccatum:</hi> that every obliquity to the law of God is not a ſin: and yet <hi>Andradius</hi> ere<g ref="char:EOLhyphen"/>cting himſelfe vpon his <hi>Portingall</hi> buſkin, proclai<g ref="char:EOLunhyphen"/>meth <hi>Quic quid a pralatorum Eccleſia ac maxime a Rom. pontificis iuſsu diſſidet immane eſse peccatu<g ref="char:cmbAbbrStroke">̄</g>
+               </hi> and againe <hi>maiori ſcelere inuolui cum qui pontifi<g ref="char:EOLhyphen"/>cias quam qui diuinas leges prefregerit</hi> and they
+<pb n="26" facs="tcp:18036:15"/>
+account none to be obedient ſonnes to their Sea but ſuch as will ſay with <hi>Eraſmus,</hi> that although indeed he did knowe another ſence then that of the Pope of Rome to be more conſonant vnto the Text of ſcripture; yet, <hi>Sed tamen, ſi hoc eccleſiae iuſſerit credam: captiuabo. n. intellectum meum in obſequium Eccleſiae.</hi>
+            </p>
+            <p>The matter of this Church is
+<list>
+                  <item>1 Angells</item>
+                  <item>2 men</item>
+               </list>
+1 Angels for not to conceale anie thing I knowe I like not the ſentence of M Beza, and M Perkins be it ſpoken with reuerence to ſo worthy men,<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>o bi<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e tus <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſta <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>lt no<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>icit e<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>etus eſt.</note> but choſe rather to tread in the <hi>paths of Antiquity,</hi> ſe<g ref="char:EOLhyphen"/>ing the learned <hi>Zanchius</hi> is perſwaded that An<g ref="char:EOLhyphen"/>gels be parts of the myſticall body of Chriſt and members of the Church, ſeing they receaue by the mediatio<g ref="char:cmbAbbrStroke">̄</g> of Chriſt, theſe benefits enſewing.</p>
+            <p n="1">1 To be confirmed in their bleſſed eſtate.</p>
+            <p n="2">2 To haue a more perfit Revelation of the will of God touching the calling of the Gentiles.</p>
+            <p n="3">3 To be reconciled to man, from whom they were averſe before, as beeing executioners of Gods wrath vpon our ſinnes, and hence is their ioie for our ſeverall converſions.</p>
+            <p>And I beleeue that this opinion is ſtronglie
+<pb n="27" facs="tcp:18036:15"/>
+mainetained, and abetted with theſe places of Scripture: <hi>Epheſ.</hi> 1.10. <hi>Coloſs.</hi> 1.20.</p>
+            <p n="2">2 Men. 1 Not Hypocrites, or wicked men, for howſoever they carry an outwarde profeſſion of Sanctity, and the livery of Chriſtians, yet indeed are they not true and living members of Chriſts body: for otherwiſe this would follow, that the Hypocrite being to receiue his portion in the fie<g ref="char:EOLhyphen"/>ry lake, that Chriſt ſhould condemne into hell, his owne members; only I muſt adviſe you, that in the iudgment of Charity you doe eſteeme all thoſe for true members of Chriſt, which faſhion the<g ref="char:cmbAbbrStroke">̄</g>ſelues to an outward co<g ref="char:cmbAbbrStroke">̄</g>formity in the church, alwaies remembring what S<hi rend="sup">t</hi>. <hi>Auguſtine</hi> anſwe<g ref="char:EOLhyphen"/>red <hi>Petilian</hi> charging him to be a reprobate. <hi>In a<g ref="char:EOLhyphen"/>rea domini ſum vel frumentum, vel palea: ſed hu<g ref="char:EOLhyphen"/>ius area ventilabrum non eſt lingua Petiliani.</hi>
+            </p>
+            <p>But 2. <hi>holy men, elect children,</hi> &amp; Saints of God, for their ſinnes beeing waſhed away in the bloud of the Lambe, they only are cloathed with the <hi>ſtole</hi> of righteouſnes, and haue <hi>palmes</hi> in their hands, and doe follow the <hi>lambe</hi> whither-ſoever he goeth, ſinging <hi>honour, and praiſe, and immor<g ref="char:EOLhyphen"/>tality to him that ſitteth vpon the throne, &amp; to the Lambe for evermore.</hi>
+            </p>
+            <p n="3">3 The inward forme of this Church is the bo<g ref="char:cmbAbbrStroke">̄</g>d
+<pb facs="tcp:18036:16" rendition="simple:additions"/>
+of the ſpirit, by which the Saints of God diſperſed ouer the whole earth of diuerſe times, are knit to<g ref="char:EOLunhyphen"/>gether and linked in a <hi>vnion</hi> to Chriſt their head and a <hi>communion</hi> amongſt themſelues.</p>
+            <p n="4">4 I beleeue this Church to be inuiſible in re<g ref="char:EOLhyphen"/>ſpect of this inward forme, for although <hi>Momus</hi> deſired, yet God neuer granted a window to the breaſt of man, ſo that we cannot enter with a Ca<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>dle to ſee their faith, their election, the Graces of the holie Ghoſt &amp; in reſpect of the better part, to wit, the Saints bleſſed in heaue<g ref="char:cmbAbbrStroke">̄</g>, to who<g ref="char:cmbAbbrStroke">̄</g> as we ca<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>not extend the <hi>torme<g ref="char:cmbAbbrStroke">̄</g>ts of mallice,</hi> or the <hi>ſcourge of our tongue, ſo neither bodily eies:</hi> yet <hi>viſible</hi> in ſome particular churches,<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>to <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>eti <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ſt <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>lt <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ici <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>eti <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>eſ<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> as now in England (for the welfare of which church my praier hath euer bin that in the <hi>Canticles, Ariſe ô North &amp; come ô South, and blow on this garden, that the ſpices ther of may flow out</hi>) yet ſo as ſubiect to change, haue<g ref="char:EOLhyphen"/>ing a waxing, and a waning like the moone: for ſomtime we read that Chriſt ſaith of his Church <hi>who is ſhe that looketh forth as the morning, faire as the moone, pure as the ſonne, terrible as an army with banners.</hi> Somtimes againe we read of the Church, that ſhe is driuen by the <hi>red dragon in<g ref="char:EOLhyphen"/>to the wildernes</hi> and hath ſent after her, a <hi>riuer of water,</hi> to ſwallow and drowne her vp.</p>
+            <p n="5">
+               <pb n="29" facs="tcp:18036:16"/>5 This Church is a body coupled togither by ioints. <hi>Epheſ.</hi> 4.16. &amp; therefore muſt haue a head, the which head I confeſſe Chriſt, &amp; Chriſt alone to be according to <hi>that, Coloſs.</hi> 1.18. <hi>Et ipſe caput corporis (t) Eccleſiae:</hi> for no other Creature whatſo<g ref="char:EOLhyphen"/>ever ca<g ref="char:cmbAbbrStroke">̄</g> performe the offices of a head to this bo<g ref="char:EOLhyphen"/>dy, which are, <hi>vi intus agente,</hi> as <hi>Paule</hi> ſpeaketh, <hi>Eph.</hi> 5. To giue efficacy, &amp; quickning to the ſame, and to powre forth oile in great aboundance into the ſeaven lamps which ſtand in the golden can<g ref="char:EOLhyphen"/>dleſticke in the temple,<note place="margin">Gregor Mag. <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the beſ<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> ſhops o<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> and im<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ate pre<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> for t<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Bonifa<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> tragic<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> clamit<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> go aut<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> denter<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> quia q<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> quis ſ<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>uerſal cerdo<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> cat; ve<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> ri de ſi<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> in ela ſua A<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> chriſti<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> prec <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> quia biend<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> teris <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> ni<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </note> as it is in <hi>the viſion of Za<g ref="char:EOLhyphen"/>charie:</hi> and therefore the firſt, and beſt Biſhops of Rome never durſt arrogate vnto themſelues, to be the general fathers, and heads of the Church, nor any in more corrupted times, vntill <hi>Boniface</hi> the 3. about 600. after Chriſt, having abſolved fro<g ref="char:cmbAbbrStroke">̄</g> Parricide <hi>Phocas,</hi> who had killed <hi>Mauricius</hi> the <hi>Emperour</hi> and <hi>his Lorde,</hi> obtained in lew of this <hi>Church bleſsing</hi> to be called the <hi>Oecumenicall</hi> and generall head of the Church; which ever ſince the Biſhops of Rome haue continued, &amp; do ſeeke to mainetaine by a diſtinction minted by them. That Chriſt indeed is the head of the triumpha<g ref="char:cmbAbbrStroke">̄</g>t, and Militant Church both, and the Pope of the Militant only againe, That Chriſt is the head of the Church <hi>by ſoueraigne preheminence, in a more
+<pb facs="tcp:18036:17"/>
+diuine, ample, abſolute, excellent, and tranſcende<g ref="char:cmbAbbrStroke">̄</g>t ſort,</hi> but the Pope is Head only <hi>Miniſterially.</hi> Fooliſh men, that ſeeke to couer their ambition with ſuch <hi>Figleaues,</hi> as theſe are, for what need Chriſt of a miniſteriall head, to ſupply his preſe<g ref="char:cmbAbbrStroke">̄</g>ce in the Church, and if the Pope of Rome be that head, how wiſely hath Chriſt prouided, that <hi>Error and Hereſie</hi> ſhall neuer preuaile in it? ſeing the <hi>Pope</hi> may erre, <hi>non ſolum actu externo, in quae<g ref="char:EOLhyphen"/>ſtione facti, errore exempli, in declaratione opini<g ref="char:EOLhyphen"/>onis propriae, in iis quae obiter dicat, in mediis ante concluſionem, ſed etiam in rebus fidei, vt ſummus pontifex, vt publicum os eccleſiae, in definitiuâ ſen<g ref="char:EOLhyphen"/>tentiâ;</hi> for many of them haue bin Heretickes, witnes <hi>Liran in Matthew</hi> 16. <hi>legimus multos pon<g ref="char:EOLhyphen"/>tifices apoſtatàſſe a fide</hi> &amp; this <hi>Bellarmine</hi> doth in ſome ſort grant when he faintly deuieth it if not rather, inſinuateth the ſame.<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>b. <hi>4.</hi> de <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ontif.</note> 
+               <hi>Non eſt proprie He<g ref="char:EOLunhyphen"/>retica iſta ſententia, puta, papam errare poſse.</hi> it may be as <hi>Stapleton</hi> will haue it, <hi>an erroneous, a ſcandalous,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ont. 3 <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>4.</note> 
+               <hi>an offenſiue poſition, but non eſt propri<g ref="char:EOLhyphen"/>e heretica.</hi>
+            </p>
+            <p n="6">6 The true markes and badges of this Church are only two the <hi>ſincere preaching of the word,</hi> &amp; the 2 <hi>lawfull diſpenſation of the ſacraments,</hi> not <hi>Antiquity,</hi> nor <hi>multitude,</hi> nor <hi>miracles,</hi> nor the
+<pb n="31" facs="tcp:18036:17"/>
+reſt which <hi>Bellarmine</hi> repeateth to the number of foureteene.</p>
+            <p n="1">1 The ſincere preaching of the word to which we admit nobody but he that is lawfully called by the Church, and Chriſtian magiſtrat; neither do J ſee how the Papiſts can obiect vnto <hi>Luther,</hi> and other miniſters in the <hi>Reformed Churches</hi> to haue no lawfull calling, ſeeing they receiue their <hi>ordination</hi> from themſelues, and we do not deny but the Popiſh Biſhopps, in creating miniſters, howſoeuer they vſe more ceremonies then need of, truly to conferre the office vpon whom they lay their hands.</p>
+            <p>I profeſſe that miniſters thus called haue a right to the vſe of the <hi>Keies.</hi> The keies of the Church <hi>are the power of binding and looſing, of retaineing and remitting of ſinnes.</hi>
+            </p>
+            <p>I beleue that ſinnes are only remitted, by god, for I acknowledg it to be his incommunicable property to forgiue ſinne according as he pro<g ref="char:EOLhyphen"/>claimeth of himſelfe, <hi>Ego, ego ſum, qui deleo iniqui<g ref="char:EOLunhyphen"/>tates tuas propter me etc.</hi> and that man hath but a ſecundary and miniſteriall power, to wit, <hi>to pub<g ref="char:EOLhyphen"/>liſh forgiuenes</hi> of ſinns, to thoſe, whome God in heauen hath forgiue<g ref="char:cmbAbbrStroke">̄</g>, for we are but <hi>Embaſſadors</hi> and doe intreat for Chriſt ſake <hi>Reconciliamini
+<pb facs="tcp:18036:18"/>
+Deo:</hi> otherwiſe if the miniſter doe take vpon him, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, vpon any abſolute power reſting in himſelfe to forgiue ſinns, the ſinner to be abſol<g ref="char:EOLhyphen"/>ued may ſay vnto him, as <hi>Auguſtine</hi> hath it: <hi>Quid ego homo, niſi ager ſanandus? vis mihi eſse medicus mecum quaere medicum,</hi> for he ſinfull man as he is hath need of one to forgiue his ſinnes likwiſe.</p>
+            <p>I acknowledg power in the miniſter to retaine ſinne, and to award <hi>Excommunication,</hi> againſt deſperate and ſcandalus offenders, only I could aduiſe, they would remenber, and practiſe theſe few rules following. 1 That ſuch eccleſiaſticall curſes be denounced according vnto the word of god.</p>
+            <p n="2">2 That they put a difference betwene priuate and publike ſinns, betwene <hi>delicta &amp; ſcelera.</hi>
+            </p>
+            <p n="3">3 That they be not too ſharp in their cenſures, remembering that of <hi>Chryſoſtome Si Deus eſt tam benignus, vt quid ſacerdos eius tamauſterus?</hi>
+            </p>
+            <p>Againſt the firſt, the Biſhopp of Rome highly offendeth, when <hi>euery Eaſter day</hi> he excommuni<g ref="char:EOLhyphen"/>cateth the <hi>Reformed</hi> Churches, before his <hi>ſo<g ref="char:EOLhyphen"/>lemne Maſse;</hi> for wheras the Pope denounceth his curſe againſt vs, <hi>Quod haretici,</hi> we knowe the cauſe is falſe, and therfore the curſe not effectual ſeeing, as it is in the Prouerbs. <hi>A curſe cauſeleſſe
+<pb n="33" facs="tcp:18036:18"/>
+ſhall not come</hi> and therfore we ſay with Tertullian <hi>Dum a vobis damnamur, a Deo abſoluimm.</hi>
+            </p>
+            <p n="2">2 The ſecond note of the Church is the right<g ref="char:EOLhyphen"/>full adminiſtration of the Sacraments.</p>
+            <p>Now Sacraments are only two
+<list>
+                  <item>1 Baptiſme.</item>
+                  <item>2 The Lords ſupper</item>
+               </list>
+            </p>
+            <p>I confeſſe Baptiſme to be a leale of the coue<g ref="char:EOLhyphen"/>na<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> of grace, and therfore children being con<g ref="char:EOLhyphen"/>tained in the couenant <hi>(promiſsio facta eſt vobis, et liberis veſtris)</hi> are to receue the ſeale of the co<g ref="char:EOLhyphen"/>uenant, and to be baptiſed; howſoeuer firſt the <hi>Pelagian,</hi> and ſince the <hi>Anabaptiſt</hi> with great fury, &amp; greater phrenſy teach the co<g ref="char:cmbAbbrStroke">̄</g>trary: &amp; we haue nothing ſo commonly in our mouths as that comfortable ſaieing of Chriſt in S. <hi>Auguſ<g ref="char:EOLhyphen"/>tine, Baptiſma quare Domini, ego quaeſiui ſerui</hi> howſoeuer Campian doth put on a whores-fore<g ref="char:EOLhyphen"/>head and impudently charge vs, to make Baptiſ<g ref="char:EOLhyphen"/>me but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>ſi habeas recte, ſicareas, nihil da<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ni.</hi>
+            </p>
+            <p>Yet doe I not avouch that Baptiſme is ſimplie neceſſary to ſalvation, for I am perſwaded, that childe may bee ſaved which is prevented in his Baptiſme, by ſuddaine death, and that ſaying of Saint <hi>Bernard</hi> alwaies was of authority with me, <hi>Non privatio, ſed contemptus Baptiſmi damnat,</hi>
+               <pb n="34" facs="tcp:18036:19"/>
+and that of Saint <hi>Ambroſe. Qui Sacramentum o<g ref="char:EOLhyphen"/>mittunt</hi> (to wit, in the caſe aboue ſpecified) <hi>grati<g ref="char:EOLhyphen"/>am tamen, non amittunt;</hi> and I thinke, that Saint <hi>Auguſtine,</hi> if ſoberly vnderſtoode, is not ſo much my enemy in this point, as Papiſts and ſome Pro<g ref="char:EOLhyphen"/>teſtants doe beleeue.</p>
+            <p>I confeſſe originall ſinne to be <hi>weakened,</hi> and <hi>bridled</hi> by Baptiſme, yea taken away <hi>quoad reatu<g ref="char:cmbAbbrStroke">̄</g> &amp; imputationem,</hi> but not <hi>quoad actum, &amp; totali a<g ref="char:EOLhyphen"/>bolitione,</hi> as the Papiſts would haue it, for it ſtil re<g ref="char:EOLhyphen"/>maineth in vs as long as wee walke <hi>ſub onere car<g ref="char:EOLhyphen"/>nis,</hi> and is indeed a ſinne; howſoever in Chriſt not <hi>imputed</hi> vnto the perſon in whom it is: or if you will ſo haue it, I wil giue you my iudgment of <hi>Co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>cupiſcence,</hi> remaining after Baptiſme in Saint <hi>Auguſtines</hi> wordes, <hi>Remittitur in Baptiſmate, non finitur.</hi> And againe, <hi>Sed ſufficit (inquis) quod in Baptiſmate accepi Remiſsionem omnium peccato<g ref="char:EOLhyphen"/>rum? nunquid quia deleta est iniquitas, finita eſt in<g ref="char:EOLhyphen"/>firmit as? Adhuc carnem fragilem portas, adhuc cor<g ref="char:EOLhyphen"/>pus, quod corrumpitur aggrauat animam, adhuc v<g ref="char:EOLhyphen"/>ti<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> dicis, donec ſanentur languores tui, Dimitte nobis debita noſtra.</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ſcis an <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s pie dix <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>eſse repe <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>dum <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>g.</note> Baptiſme is only to be diſpe<g ref="char:cmbAbbrStroke">̄</g>ſ<g ref="char:EOLhyphen"/>ed by a miniſter, not by a lay man, much leſſe by a woman: yet I am perſwaded, that if a lay man, or woman haue <hi>de facto</hi> baptiſed obſeruing the
+<pb n="35" facs="tcp:18036:19"/>
+forme of words the baptiſme is not to be repeat<g ref="char:EOLhyphen"/>ed, and I reſt in the iudgment <hi>of</hi> a <hi>learned</hi> fa<g ref="char:EOLhyphen"/>ther amongſt vs, whoſe wordes they are, <hi>pie fit, fi minister tingat ſolus, at fit etiam ſiting at alius,</hi> &amp; againe <hi>malè factum eſt, ſilaicus, peius,</hi>
+               <note place="margin">D. Ab<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> lec de <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> 
+               <hi>ſi feminare<g ref="char:cmbAbbrStroke">̄</g> ſacro-ſanctam hanc attigerit, ſed factum est, &amp; quod factum eſt, infectum eſse non potest.</hi>
+            </p>
+            <p n="2">2 The other Sacrame<g ref="char:cmbAbbrStroke">̄</g>t is the Euchariſt, in which the true body and bloud of Chriſt is giuen vs vn<g ref="char:EOLhyphen"/>der the viſible forme of bread, and wine to be re<g ref="char:EOLhyphen"/>ceiued by the mouth of faith of euery beleeuer. And J am perſwaded that as truely as the breade and wine is receiued by my hand, and conueied into my ſtomack, ſo aſſuredly the body and blood of Chriſt Ieſus is receiued by the hand of faith, &amp; conueied vnto my ſoule, and co<g ref="char:cmbAbbrStroke">̄</g>ſcience, and this certainely is aſſured vnto me by thoſe <hi>Emphati<g ref="char:EOLhyphen"/>call formes</hi> of ſpeeches peculiar in the <hi>ſacraments</hi> by which the bread is tearmed <hi>the true body,</hi> and wine, <hi>the blood of Chriſt:</hi> ſo the<g ref="char:cmbAbbrStroke">̄</g> the body of Chriſt is preſent in the ſacrament, <hi>verè non imaginarie,</hi> how be it <hi>non corporali preſentia, ſed ſpirituali</hi> according to that of S. Auguſtine. <hi>Quid paras ven<g ref="char:EOLhyphen"/>trem, et dentes? crede, et mandacaſti.</hi>
+            </p>
+            <p>Away then with the <hi>whe<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> ten Idoll,</hi> the <hi>maſſe,</hi> and <hi>Popiſh Tranſubſtantiation,</hi> for that there ca<g ref="char:cmbAbbrStroke">̄</g>
+               <pb n="36" facs="tcp:18036:20"/>
+be no ſuch <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> or Tranſubſtantiation, I pro<g ref="char:EOLhyphen"/>teſt vpon theſe ſeaſons.</p>
+            <p n="1">1 It croſſeth the inſtitution of Chriſt, he bid<g ref="char:EOLhyphen"/>eth vs to receaue his ſupper <hi>In mei recordatione<g ref="char:cmbAbbrStroke">̄</g>
+               </hi> now we knowe that Recordatio is <hi>Rei abſentis no<g ref="char:cmbAbbrStroke">̄</g> praeſentis.</hi>
+            </p>
+            <p n="2">2 Chriſtians would then be <hi>Anthropopnagi</hi> &amp; the Lords table ſhould be like the houſe of Poly<g ref="char:EOLhyphen"/>phemus in the poet, <hi>et trepidi tremerent ſub den<g ref="char:EOLhyphen"/>tibus artus.</hi>
+            </p>
+            <p n="3">3 This implies a blaſphemy, for then Chriſt be<g ref="char:EOLunhyphen"/>ing chewed, and eaten <hi>in ventrem cederet,</hi> and therfore according to the doctrine of the <hi>Goſpell in latrinim abiiceretur.</hi>
+            </p>
+            <p n="4">4. Then the wicked ſhould eate his <hi>fleſh</hi> and ſo haue <hi>eternall life.</hi>
+            </p>
+            <p n="5">5 We fee the Accidents of bread, and wine to remaine, and therfore the propper ſubſtances of bread, and wine, muſt remaine, except we would haue an Accident to ſubſiſt without his proper ſubſtance which is abſurd in reaſon.</p>
+            <p>And I do account that gloſſe which the <hi>maſter of the ſentences</hi> doth ſet vpon this matter very rediculous, to wit, that therfore the bread and wine being indeed vaniſhed away, their accide<g ref="char:cmbAbbrStroke">̄</g>ts muſt remaine to couer rhe fleſh, and bloud of
+<pb n="37" facs="tcp:18036:20"/>
+Chriſt</p>
+            <p n="1">1 <hi>Ne abhorreat animus,</hi>
+               <note place="margin">Aver<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <hi>12.</hi> m<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Quon<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> christi<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> mandu<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Deum adoran<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> anima<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> cum pl<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> phis.</note> 
+               <hi>ſi carnem ipſam oculi vſurparent.</hi>
+            </p>
+            <p n="2">2 <hi>Ne ab incredulis Religioni Chriſtianae in ſul<g ref="char:EOLhyphen"/>tetur</hi> aſ if they did eate mans fleſh. I proteſt lik<g ref="char:EOLhyphen"/>wiſe againſt the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and <hi>conſubſtantiation</hi> of the <hi>Lutherans,</hi> who do faine a <hi>Coexiſtence</hi> of the body of Chriſt, <hi>in ſub, or cum pane,</hi> and I could wiſh that they would vſe more moderation a<g ref="char:EOLhyphen"/>gainſt their Oppoſits.</p>
+            <p>J conclude my iudgment of both ſacraments with this doctrine that neither ſacrament hath <hi>vim cauſatiua<g ref="char:cmbAbbrStroke">̄</g> gratiae,</hi> as the Papiſts ſpeake, that I may explicate my ſelfe to the capacity of the ſim<g ref="char:EOLunhyphen"/>ple, that there is not in the corporall elements of the Sacraments any <hi>ſupernaturall Grace inhere<g ref="char:cmbAbbrStroke">̄</g>t and eſſentiall,</hi> but that the ſacraments are <hi>inſtru<g ref="char:EOLhyphen"/>ments and meanes</hi> by the which the holy ghoſt is <hi>effectually</hi> powerfull to offer exhibit, and apply the merit of Chriſts paſſion to euery beleeuer.</p>
+            <p>
+               <pb n="38" facs="tcp:18036:21"/>That which <hi>peſsimè &amp; pertinaciſſimè Eut<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ches,</hi> as I read of him, I hope J may truely and from a ſober and Chriſtian reſolution averre: <hi>In hac fide genitus ſum vſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> bodie vixi in ea, et opto mori.</hi>
+            </p>
+            <closer>Etiam ſic ſentio, ſic credo. 
+<signed>I. D.</signed>
+            </closer>
+            <epigraph>
+               <q>
+                  <l>Hiſ qui contradicit, aut omnino a Christi</l>
+                  <l>nomine alienus eſt, aut eſt Hereticus.</l>
+               </q>
+            </epigraph>
+         </div>
+      </body>
+      <back>
+         <div type="to_the_reader">
+            <head>To the Reader.</head>
+            <l>THis little Booke for priuate vſe,</l>
+            <l>was pen'd ſome time agoe;</l>
+            <l>And now diuulg'd for priuate freinds,</l>
+            <l>His Author wills it ſoe,</l>
+            <l>But if it come to others handes,</l>
+            <l>And they ſome profit gaine:</l>
+            <l>Then thanke his friends, that for their ſakes,</l>
+            <l>He hath tooke all this paine.</l>
+            <closer>
+               <signed>ROGER KNIGHT.</signed>
+            </closer>
+         </div>
+      </back>
+   </text>
+</TEI>
